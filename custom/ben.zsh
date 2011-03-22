@@ -9,7 +9,6 @@ alias cls='clear'
 alias UP2low='for i in *(.); mv $i ${i:l}'
 alias low2UP='for i in *(.); mv $i $(i:u)'
 alias src='source ~/.zshrc'
-alias e=${EDITOR}
 alias ag='brew update && brew list | xargs brew install'
 alias acs='brew search'
 alias agi='brew install'
